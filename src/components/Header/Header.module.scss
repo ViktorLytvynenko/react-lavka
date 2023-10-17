@@ -1,0 +1,217 @@
+.header {
+  height: 160px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header_container_leftContainer {
+  width: 200px;
+  padding-top: 20px;
+}
+
+.header_container_leftContainer_img {
+  width: 100%;
+}
+
+.header_container_rightContainer {
+  padding-top: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_container_rightContainer_li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header_container_rightContainer_li:hover {
+  color: cornflowerblue;
+}
+
+.header_container2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+
+  &_catalog {
+    width: 200px;
+    height: 45px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+    &:hover {
+      background: white;
+      color: cornflowerblue;
+      border: 2px solid cornflowerblue;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-in-out;
+    }
+  }
+
+  &_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 35px;
+
+    &_input {
+      width: 600px;
+      height: 35px;
+      outline: none;
+
+      &:focus {
+        outline: 1px solid cornflowerblue;
+      }
+    }
+
+    &_button {
+      width: 100px;
+      height: 41px;
+      background-color: cornflowerblue;
+      color: white;
+      border: none;
+
+      &:hover {
+        background: white;
+        color: cornflowerblue;
+        border: 2px solid cornflowerblue;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+      }
+    }
+  }
+
+  &_buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+
+    &_wishListCount {
+      position: absolute;
+      top: 0;
+      right: 5px;
+      width: 18px;
+      height: 18px;
+      color: white;
+      background-color: cornflowerblue;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid cornflowerblue;
+    }
+
+    &_heart {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 60px;
+      height: 45px;
+
+      &:hover .header_container2_buttonsContainer_heart_img {
+        fill: dodgerblue;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+      }
+
+      &:hover .header_container2_buttonsContainer_heart_name {
+        color: black;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+      }
+
+      &:hover .header_container2_buttonsContainer_wishListCount {
+        background-color: white;
+        color: dodgerblue;
+        border: 2px solid dodgerblue;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+      }
+
+      &_img {
+        width: 100%;
+        fill: cornflowerblue;
+      }
+
+      &_name {
+        font-weight: bold;
+        color: dimgray;
+      }
+    }
+
+    &_basketCount {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 18px;
+      height: 18px;
+      color: white;
+      background-color: cornflowerblue;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid cornflowerblue;
+    }
+
+    &_basket {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 45px;
+      height: 45px;
+
+      &:hover .header_container2_buttonsContainer_basket_img {
+        fill: dodgerblue;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+      }
+
+      &:hover .header_container2_buttonsContainer_basketCount {
+        background-color: white;
+        color: dodgerblue;
+        border: 2px solid dodgerblue;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+      }
+
+      &:hover .header_container2_buttonsContainer_basket_name {
+        color: black;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+      }
+
+      &_img {
+        width: 100%;
+        fill: cornflowerblue;
+      }
+
+      &_name {
+        font-weight: bold;
+        color: dimgray;
+      }
+    }
+  }
+}

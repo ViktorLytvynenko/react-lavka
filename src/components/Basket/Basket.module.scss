@@ -1,0 +1,14 @@
+.emptyContainer {
+  width: 500px;
+  margin: 0 auto;
+  &_img {
+    width: 100%;
+  }
+}
+.container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px 2px;
+}

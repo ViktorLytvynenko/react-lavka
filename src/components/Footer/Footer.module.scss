@@ -1,0 +1,26 @@
+.footer {
+  background-color: #4b5a72;
+  height: 150px;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+}
+.footer_container_c1 {
+  width: 200px;
+}
+.footer_container_c1_img {
+  width: 100%;
+}
+.footer_container_nav {
+  color: white;
+}
+.footer_copyright {
+  text-align: center;
+  color: #b7bdc6;
+}

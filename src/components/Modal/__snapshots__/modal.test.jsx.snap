@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component Modal snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="modalContainer"
+      >
+        <div
+          class="modal"
+        >
+          <div
+            class="modal_header modal_header_danger"
+          >
+            <p>
+              1
+            </p>
+          </div>
+          <div
+            class="modal_body modal_body_danger"
+          >
+            <p>
+              2
+            </p>
+            <p>
+              Підтвердіть Ваш вибір
+            </p>
+            <div
+              class="modal_body_container"
+            >
+              <button
+                class="modal_body_container_button modal_body_container_button_danger"
+              >
+                Підтверджую
+              </button>
+              <button
+                class="modal_body_container_button modal_body_container_button_danger"
+              >
+                Відмінити
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="modalContainer"
+    >
+      <div
+        class="modal"
+      >
+        <div
+          class="modal_header modal_header_danger"
+        >
+          <p>
+            1
+          </p>
+        </div>
+        <div
+          class="modal_body modal_body_danger"
+        >
+          <p>
+            2
+          </p>
+          <p>
+            Підтвердіть Ваш вибір
+          </p>
+          <div
+            class="modal_body_container"
+          >
+            <button
+              class="modal_body_container_button modal_body_container_button_danger"
+            >
+              Підтверджую
+            </button>
+            <button
+              class="modal_body_container_button modal_body_container_button_danger"
+            >
+              Відмінити
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
